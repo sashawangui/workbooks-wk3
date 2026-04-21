@@ -33,7 +33,7 @@ public class FamousQuotes {
                     System.out.println();
                 }else {
                     anotherOne = false;
-                    System.out.println("Ok.");
+                    System.out.println("Ok. Have a good one!");
                 }
 
             } catch (Exception e) {
