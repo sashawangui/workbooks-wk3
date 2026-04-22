@@ -13,8 +13,8 @@ public class PayrollCalculator {
         List<Employee> employees = new ArrayList<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(inputFileName))) {
-            String line;
-            while ((line = br.readLine()) != null) {
+            String line = br.readLine();
+            while (line != null) {
                 String[] values = line.split("\\|");
 
                 int employeeId     = Integer.parseInt(values[0].trim());
